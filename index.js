@@ -10,7 +10,7 @@ json.forEach(element => {
     <div class="card-body,col">
       <strong><p class="card-title">yyy</p></strong>
       <strong><p class="card-text">zzz  </p></strong>
-      <a href="nn" class="btn btn-primary">Download</a>
+      <a href="nn" class="btn btn-primary" style="width:300px;font-size:30px">Download</a>
     </div>
   </div><br/><hr>`;
   var test= content.replace("xxx",element.img);
