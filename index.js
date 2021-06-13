@@ -19,6 +19,6 @@ json.forEach(element => {
   test= test.replace("nn",element.link);
     y.innerHTML=test;
     
-  document.getElementById('aya').appendChild(y);
+  document.getElementById('book').appendChild(y);
     
 }))
