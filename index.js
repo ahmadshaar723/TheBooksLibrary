@@ -5,10 +5,10 @@ fetch('https://traininghshaar.herokuapp.com/')
 json.forEach(element => {
     
     var y= document.createElement('span');
-    var content=`<div class="card,row" style="width:200px;text-align:center">
-    <img class="card-img-top" src="xxx" alt="Card image" style="vertical-align:middle">
+    var content=`<div class="card,row" style="width:400px;text-align:center;margin-left:150px;">
+    <img class="card-img-top" src="xxx" alt="Card image" style="vertical-align:middle"><br/><br/>
     <div class="card-body,col">
-      <strong><h5 class="card-title">yyy</h5></strong>
+      <strong><p class="card-title">yyy</p></strong>
       <strong><p class="card-text">zzz  </p></strong>
       <a href="nn" class="btn btn-primary">Download</a>
     </div>
